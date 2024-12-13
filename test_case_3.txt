@@ -1,0 +1,14 @@
+
+integer x, y, product;
+x = 1;
+y = 1;
+product = 1;
+while (x <= 3) {
+    y = 1;
+    while (y <= 3) {
+        product = product * y;
+        y = y + 1;
+    }
+    x = x + 1;
+}
+put(product);
